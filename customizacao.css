@@ -16,16 +16,16 @@ div {
 #logo {
   width: 75px;
   margin: 12.5px 0 0 12.5px;
+  transition: 2s all;
+}
+
+#logo:hover{
+  transform: rotate(36deg);
 }
 
 #area {
-
   position: relative;
-
   top: -30px;
-
-
-
   display: inline-block;
   margin: 0 16.1%;
   color: white;

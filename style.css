@@ -16,6 +16,11 @@ div {
 #logo {
   width: 75px;
   margin: 12.5px 0 0 12.5px;
+  transition: 2s all;
+}
+
+#logo:hover{
+  transform: rotate(36deg);
 }
 
 #area {
